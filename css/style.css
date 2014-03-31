@@ -203,7 +203,7 @@ body {
 }
 
 .reveal em {
-	color: #ed4732;
+	color: rgb(119, 168, 84);
 	font-style: normal;
 	font-weight: bold;
 }
