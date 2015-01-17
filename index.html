@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Sistema de Gestión de Competiciones Deportivas</title>
+	<title>VACmatch</title>
 	<meta name="viewport" content="width=1024" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta charset="utf-8" />
@@ -14,6 +14,7 @@
 
 	<link rel="stylesheet" href="reveal.js/css/reveal.min.css" />
 	<link rel="stylesheet" href="css/style.css" id="theme" />
+	<!-- <link rel="stylesheet" href="css/pdf.css"/> -->
 
 	<!-- For syntax highlighting -->
 	<link rel="stylesheet" href="reveal.js/lib/css/zenburn.css" />
@@ -34,220 +35,191 @@
 	<div class="reveal">
 		<div class="slides">
 
-		<section id="portada">
-			<h1><em>SGCD</em>.</h1>
-			<h6>Pablo Castro Valiño</h6>
-			<h6>Santiago Saavedra López</h6>
+		<section id="portada" data-background="/img/fondos/handball1.jpg">
+			<h1><em>VACmatch</em></h1>
+			<h4>Pablo Castro Valiño</h4>
+			<h4>Santiago Saavedra López</h4>
+		</section>
+
+		<section>
+			<section>
+				<h2><em>Pablo Castro Valiño</em></h2>
+				<ul>
+					<li><h5>Estudante Enxeñaría Informática <em>UDC</em></h5></li>
+					<li><h5><em>Secretario adxunto</em> na Asociación <em>GPUL</em></h5></li>
+					<li><h5>Colaboración informática na <em>biblioteca</em> da <em>Facultade de Informática</em></h5></li>
+				</ul>
+			</section>
+			<section>
+				<h2><em>Santiago Saavedra López</em></h2>
+				<ul>
+					<li><h5>Estudante Enxeñaría Informática <em>UDC</em></h5></li>
+					<li><h5><em>Presidente</em> da Asociación <em>GPUL</em></h5></li>
+					<li><h5>Doutoramento no <em>MADSGroup</em> do <em>Departamento de Computación</em> na UDC</h5></li>
+				</ul>
+			</section>
 		</section>
 
 		<section>
 			<section>
 				<h2><em>Motivación</em></h2>
-				<p class="fragment">Falta de <em>informatización</em> en el deporte</p>
-				<p class="fragment">Demasiado <em>tiempo</em> gestionando competiciones</p>
-				<p class="fragment"><em>Papeleo</em> infinito</p>
-			</section>
-
-			<section>
-				<h2><em>Idea</em></h2>
-				<ul>
-					<li class="fragment inline">Un sistema de gestión de competiciones deportivas </li>
-					<li class="fragment inline"><em>moderno</em></li><!--
-					--><li class="fragment inline">, <em>automático</em></li>
-					<li class="fragment inline"> y <em>ágil</em>.</li>
-				</ul>
-				<ul>
-					<li class="fragment"><em>Reducir el tiempo</em> de gestión deportiva</li>
-					<li class="fragment">Menos papel</li>
-					<li class="fragment">Accesible desde <em>cualquier parte</em></li>
-				</ul>
-			</section>
-
-			<section>
-				<h2><em>Distintos deportes</em></h2>
-					<img src="/img/futsal3.jpg" width="40%" height="50%">
-					<img src="/img/hockey1.jpg" width="40%" height="50%">
-				<img src="/img/voley.jpg" width="40%" height="50%">
-				<img src="/img/balonmano.jpg" width="40%" height="50%">
+				<h5 class="fragment">Falta de <em>informatización</em> no deporte</h5>
+				<h5 class="fragment">Tratamento manual de <em>actas, fichas e trámites</em></h5>
+				<h5 class="fragment"><em>Papeleo</em> infinito</h5>
+				<h5 class="fragment"><em>Pouca relación</em> entre equipos</h5>
 			</section>
 		</section>
 
 		<section>
-			<section>
-				<h1><em>El Sistema</em></h1>	
+			<section data-background="/img/fondos/hockey_hielo.jpg">
+				<h2><em>Aplicación web para a xestión</em> de competicións.</h2>
 			</section>
-
+			
 			<section>
-				<h2><em>Sistema web para la gestión</em> de competiciones.</h2>
-				<p class="fragment">Se suben los resultados <em>en tiempo real</em>.</p>
-				<p class="fragment">El sistema <em>actualiza</em> clasificaciónes y realiza <em>avisos</em>.</p>
-				<ul class="fragment">
-					<li>Sanciones</li>
-					<li>Actualizaciones</li>
-					<li>etc.</li>
+				<h2>Para as <em>Federacións</em></h2>
+				<h5 class="fragment"><em>Web corporativa</em></h5>
+				<h5 class="fragment"><em>Actas electrónicas</em></h5>
+				<h5 class="fragment"><em>Xestións electrónicas</em></h5>
+				<h5><ul class="fragment">
+					<li>Inscrición online nas competicións</li>
+					<li>Aprazamentos online de partidos</li>
 				</ul>
+				</h5>
+				<h5 class="fragment"><em>Notificacións</em> de sancións, actualizacións ou avisos</h5>
+			</section>
+
+			<section data-background="/img/fondos/kids.jpg">
+				<h2>Rede deportiva</h2>
 			</section>
 
 			<section>
-				<h2><em>El aspecto inovador</em></h2>
-				<p class="fragment">Actas <em>electrónicas</em> firmadas electronicamente.</p>
-				<hr/>
-				<p class="fragment">Se substituyen las <em>fichas</em> por el <em>DNI electrónico</em>.</p>
-			</section>
-
-			<section>
-				<h2><em>Tablets</em></h2>
-				<p>Web <em>continuamente actualizada</em>, sin intervención de la federación</p>
-				<img src="/img/tablets.jpg" width="60%" heigh="50%">
-			</section>
-
-			<section>
-				<h2><em>Funcionamiento</em></h2>
-				<ol>
-					<li class="fragment">El árbitro descarga los partidos del día</li>
-					<li class="fragment">Se crean, firman y almacenan las actas a medida que se juega</li>
-					<li class="fragment">Una vez en casa, el árbitro sube todas las actas</li>
-				</ol>
-			</section>
-
-			<section>
-				<h2><em>Beneficios</em></h2>
-				<h4 class="fragment">Gestión automática de <em>actas</em> (reducción del papeleo)</h4>
-				<h4 class="fragment">Gestión automática de <em>resultados y clasificaciones</em></h4>
-				<h4 class="fragment">Control de <em>sanciones</em>, <em>alineaciones indebidas</em></h4>
-				<h4 class="fragment">Posibilidad de <em>notificaciones</em> automáticas</h4>
-			</section>
-
-			<section>
-				<h2><em>Revisión de la competición</em></h2>
-				<h4 class="fragment">Posibilidad de modificación manual de actas</h4>
-				<h4 class="fragment">Posibilidad de restructuración de la competición</h4>
-				<h4 class="fragment">Posibilidad de modificación del calendario y <em>notificaciones automáticas</em></h4>
-			</section>
-		</section>
-
-<!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
-<!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
-
-		<section>
-
-			<section>
-				<h2><em>Red social</em></h2>
-			</section>
-
-			<section>
-				<h2>Funciones <em>Sociales</em> típicas</h2>
+				<h2>Para os <em>Clubes</em></h2>
 				<ul>
-					<li class="fragment" style="display:inline;"><em>Fotos</em>, </li>
-					<li class="fragment" style="display:inline;" >videos, </li>
-					<li class="fragment" style="display:inline;"><em>chat</em></li>
-				</ul>
-			</section>	
-
-			<section>
-				<h2>Para los <em>Clubes</em></h2>
-				<ul>
-					<li class="fragment">Espacio web para el <em>club</em></li>
-					<li class="fragment">Consulta de <em>actas</em></li>
-					<li class="fragment">Trámites online</li>
+					<li class="fragment"><h5><em>Espazo web</em></h5></li>
+					<li class="fragment"><h5><em>Trámites online</em></h5></li>
 					<ul class="fragment">
-						<li><em>Inscripción</em> y actualizaciones</li>
-						<li><em>Aplazamientos</em></li>
+						<li><h5><em>Inscrición</em> e actualizacións</h5></li>
+						<li><h5><em>Aprazamentos</em></h5></li>
 					</ul>
-					<li class="fragment"><em>Ofertar puestos</em> y buscar jugadores</li>
+					<li class="fragment"><h5><em>Ofertar postos</em> e buscar xogadores</h5></li>
+					<li class="fragment"><h5>Planificación de <em>eventos</em></h5></li>
 				</ul>
 			</section>
 
 			<section>
-				<h2>Para los <em>Sponsors</em></h2>
-				<h4 class="fragment"><em>Publicidad</em> y visibilidad</h4>
-				<img src="./img/TripAdvisor.jpg" width="30%" height="30%">
-				<img src="./img/g_local.jpeg" width="40%" height="40%">
-				<h5 class="fragment">Integración de su <em>web</em></h5>
+				<h2>Para os <em>Sponsors</em></h2>
+				<h4 class="fragment"><em>Publicidade</em> e visibilidade</h4>
+				<img src="./img/logos/TripAdvisor.jpg" width="30%" height="30%">
+				<img src="./img/logos/g_local.jpeg" width="40%" height="40%">
+				<h5 class="fragment">Integración da súa <em>web</em></h5>
 			</section>
 
 			<section>
-				<h2><em>Gestión de eventos</em><br />(Calendario)</h2>
-				<h4 class="fragment"><em>Notificación</em> de cambios</h4>
-				<h4 class="fragment">Confirmación de <em>asistencia</em></h4>
-				<ul class="fragment">
-					<li><em>Reta</em> a tus rivales</li>
-					<li>Organiza <em>entrenamientos</em></li>
-					<li><em>Prueba</em> a nuevos fichajes</li>
-					<li>Quedadas, <em>cenas</em>...</li>
-				</ul>
-			</section>
-
-			<section>
-				<aside class="notes">
-					<p>Con currículum deportivo nos referimos a historial
-					de equipos en donde jugó, estadísticas...</p>
-				</aside>
-				<h2>Para los <em>jugadores</em></h2>
+				<h2>Para os <em>xogadores</em></h2>
 				<ul>
-				<li>Buscar equipo</li>
-				<li>Fundar club</li>
-				<li><em>Visibilidad</em></li>
-				<li>Crear <em>currículum deportivo</em></li>
+					<li><h5>Buscar equipo</h5></li>
+					<li><h5>Fundar clube</h5></li>
+					<li><h5><em>Visibilidade</em></h5></li>
+					<li><h5>Crear <em>currículum deportivo</em></h5></li>
 				</ul>
-			</section>
-		</section>
-
-
-		<section>
-			<section>
-				<h2>Futuras <em>Características</em></h2>
-			</section>
-
-			<section>
-				<h2><em>Generador de horarios</em></h2>
-				<h4 class="fragment">Los clubs tienen <em>preferencias</em></h4>
-				<h4 class="fragment">Las federaciones horas y pabellones</h4>
-				<h4 class="fragment">Se busca lograr un <em>compromiso</em> de manera <em>automática</em></h4>
-			</section>
-
-
-			<section>
-				<h2>Integración de periódicos y noticias</h2>
-
 				<aside class="notes">
-				Servir fotos, vídeos, actas, goles...<br />
-				Incluso poder acercar jugadores a estos periódicos, etc.
+					<p>Currículum deportivo == historial
+					de equipos onde xogou, estatísticas...</p>
 				</aside>
+
 			</section>
+
+
+		</section>
+
+<!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
+<!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
+
+		<section>
+			<section>
+				<h2><em>O aspecto inovador</em></h2>
+				<h5 class="fragment">Actas <em>electrónicas</em> firmadas electrónicamente.</h5>
+				<hr/>
+				<h5 class="fragment">Elimínanse as <em>fichas</em> e fírmase <em>DNI electrónico</em>.</h5>
+				<aside class="notes">
+					<ul>
+					<li>O árbitro descárgase os partidos do día</li>
+					<li>Créanse, fírmanse y almacénanse as actas a medida que se xoga</li>
+					<li>Unha vez na casa, o árbitro sube tódalas actas</li>
+					</ul>
+				</aside>
+
+			</section>
+
 		</section>
 
 <!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
 <!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
 		<section>
-			<section>
-				<h2><em>Inversión</em></h2>
-				<h4>Cada jugador invierte <em>únicamente</em> 6 € para la gestión de la competición.</h4>
-				<h4>Financiamos las tablets.</h4>
-				<h5>7 € mensuales durante 1 año, entonces pasa a ser <em>propiedad</em> de la federación.</h5>
-			</section>
-
-			<section>
-				<h2><em>Premiamos la fidelidad</em></h2>
-				<h4 class="">+ años en el sistema = - coste para sus jugadores</h4>
-				<h4 class="fragment">Cuantos <em>más usuarios</em>, <em>más económico</em></h4>
-			</section>
+			<h2><em>Modelo de negocio</em></h2>
+			<h5 class="fragment"><em>Federacións: </em> Instalación + suscrición.</h5>
+			<h5 class="fragment"><em>Software libre:</em> Acceso as funcións da rede deportiva.</h5>
 		</section>
 
-<!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
-<!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
 		<section>
-			<h2>Preguntas?</h2>
+			<h2><em>Mercado</em></h2>
+			<h5 class="fragment"><em>Agrupacións e asociacións</em></h5>
+			<h5 class="fragment">-> Fútbol + Fútbol sala</h5>
+			<h5 class="fragment"><em>Federacións autonómicas</em></h5>
+			<h5 class="fragment">-> Voleibol + Balonman</h5>
+			<h5 class="fragment">...</h5>
 		</section>
+		<section>
+			<h2><em>Grao de desenvolvemento do proxecto</em></h2>
+			<h4 class="fragment">Contacto con diversas <em>federacións</em></h4>
+			<h4 class="fragment">Cualificación como <em>IEBT</em></h4>
+			<img class="fragment" src="/img/logos/logo_xunta2.png"  width="30%" height="30%">
+			<img class="fragment" src="/img/logos/openfuture-logo.png">
+			<h4 class="fragment">Desenvolvendo o <em>MVP</em></h4>
+		</section>
+
+		<section>
+			<h2><em>Prazos</em></h2>
+			<h4>Posta en marcha</h4>
+			<table>
+				<tr>
+					<td><h5><em>Outubro</em> 2014</h5></td>
+					<td><h5>---</h5></td>
+					<td><h5>Inicio da <em>actividade</em></h5></td>
+				</tr>
+				<tr>
+					<td><h5><em>Abril</em> 2015</h5></td>
+					<td><h5>---</h5></td>
+					<td><h5><em>1ª Iteración</em></h5></td>
+				</tr>
+				<tr>
+					<td><h5><em>Agosto</em> 2015</h5></td>
+					<td><h5>---</h5></td>
+					<td><h5><em>2ª Iteración</em></h5></td>
+				</tr>
+			</table>
+			<hr>
+			<h4>Creación da empresa</h4>
+			<table>
+				<tr>
+					<td><h5><em>Agosto</em> 2015</h5></td>
+					<td><h5>---</h5></td>
+					<td><h5>Constitución da <em>SL</em></h5></td>
+				</tr>
+			</table>
+		</section>
+
+<!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
+<!-- - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - ✂ - -->
 
 		</div>
 	</div>
 
 <footer class="authors">
-	<div style="float:right;text-align:left; margin-right: 0">
+	<div style="float:left;text-align:left; margin-right: 0">
 	<ul>
-		<li>Pablo Castro Valiño <a class="udc_cuenta" href="mailto:pablo.castro1.@udc.es">(pablo.castro1@udc.es)</a> </li>
-		<li>Santiago Saavedra López <a class="udc_cuenta" href="mailto:santiago.saavedral@udc.es">(santiago.saavedral@udc.es)</a></li>
+		<li>Pablo Castro Valiño <a class="udc_cuenta" href="mailto:pablo.castro1.@udc.es">(pablo.castro.valino@gmail.com)</a> </li>
+		<li>Santiago Saavedra López <a class="udc_cuenta" href="mailto:santiago.saavedral@udc.es">(santiagosaavedra@gmail.com)</a></li>
 	</ul>
 	</div>
 </footer>
@@ -276,6 +248,7 @@
 			progress: true,
 			history: true,
 			center: true,
+			slideNumber: true,
 
 			width: 800,
 			height: 600,
@@ -284,7 +257,7 @@
 			maxScale: 1,
 
 			theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-			transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+			transition: 'none' || 'default', // default/cube/page/concave/zoom/linear/fade/none
 
 			// Optional libraries used to extend on reveal.js
 			dependencies: [
