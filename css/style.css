@@ -1,12 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
 
 footer {
 	position: absolute;
 	bottom: 0px;
 	width: 100%;
 	text-align: center;
-	font-family: sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	color: #eeeeee;
 	display:table;
 	vertical-align: middle;
@@ -62,7 +63,9 @@ body {
   font-size: 40px;
   font-weight: 200;
   letter-spacing: -0.02em;
-  color: #eeeeee; }
+  color: #E9EAEB;
+  xcolor: #777;
+}
 
 ::selection {
   color: white;
@@ -79,22 +82,13 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #eeeeee;
+  color: #E9EAEB;
+  xcolor: #777;
   font-family: "Montserrat", Impact, sans-serif;
   line-height: 0.9em;
   letter-spacing: -0.03em;
   text-transform: none;
   text-shadow: 0px 0px 1px #eeeeee; }
-
-.reveal h1 em,
-.reveal h2 em,
-.reveal h3 em,
-.reveal h4 em,
-.reveal h5 em,
-.reveal h6 em {
-  text-shadow: 0px 0px 1px #77A854; }
-
-
 
 .reveal h1 {
   text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
@@ -106,6 +100,24 @@ body {
 .reveal h3 {
   font-size: 1.2em;
 }
+
+
+.reveal h1 em,
+.reveal h2 em,
+.reveal h3 em,
+.reveal h4 em,
+.reveal h5 em,
+.reveal h6 em {
+  text-shadow: 0px 0px 1px #e38037;
+}
+
+
+.reveal em {
+	color: #e38037;
+	font-style: normal;
+	font-weight: bold;
+}
+
 
 /*********************************************
  * LINKS
@@ -210,12 +222,6 @@ body {
 	background-color: rgba(200, 200, 200, 0.2);
 	padding: 0 5px;
 	border-radius: 5px;
-}
-
-.reveal em {
-	color: rgb(119, 168, 84);
-	font-style: normal;
-	font-weight: bold;
 }
 
 .reveal a.nonfancy {
