@@ -1,10 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:700);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic);
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
-.reveal i{
-    font-family: 'FontAwesome';
-    font-style: normal;
+
+.reveal .fa {
+  font-family: 'FontAwesome';
+  font-style: normal;
 }
+
 footer {
    position: absolute;
    bottom: 0px;
