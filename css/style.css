@@ -332,3 +332,20 @@ pre {
   float: left;
   padding-right: 1em;
 }
+
+.reveal h5 {
+  font-size: 85%;
+}
+
+.reveal .twocolumns {
+  column-count: 2;
+  column-gap: 50%;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 50%;
+  -moz-column-count: 2;
+  -moz-column-gap: 50%;
+}
+
+.reveal .twocolumns img {
+  padding: 0.5em;
+}
