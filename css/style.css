@@ -349,3 +349,44 @@ pre {
 .reveal .twocolumns img {
   padding: 0.5em;
 }
+
+table.comparison td, table.comparison th {
+    text-align: center;
+}
+
+table.comparison th {
+    width: 4em;
+}
+
+table.comparison th.h {
+    width: 15em;
+    text-align: left;
+}
+
+table.comparison {
+    font-size: 0.4em;
+}
+
+.comparison .no {
+    background-color: #FF0000;
+}
+
+.comparison .yes {
+    background-color: #00FF00;
+}
+
+.comparison .partial {
+    background-color: #FFFF00;
+}
+
+.comparison .plugin {
+    background-color: #40FFD0;
+}
+
+.comparison .unknown {
+    background-color: orange;
+}
+
+.comparison .closed {
+    background-color: orange;
+}
